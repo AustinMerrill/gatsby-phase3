@@ -17,7 +17,12 @@ const WorkTemplate = ({ data }) => {
           Github Repo
         </a>
       </p>
-      <p>{data.sanityWorkPage.liveSite}</p>
+      <p>
+        {" "}
+        <a href={data.sanityWorkPage.liveSite} className="text-blue-400">
+          Live Site
+        </a>
+      </p>
       <img
         src={data.sanityWorkPage.image.asset.fluid.src}
         alt="something"

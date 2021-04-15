@@ -64,6 +64,9 @@ const Header = ({ siteTitle }) => {
           <div className="md:inline-block hover:text-blue-500">
             <Link to="/services">Services</Link>
           </div>
+          <div className="md:inline-block hover:text-blue-500">
+            <Link to="/news">News</Link>
+          </div>
           <div className="transition duration-300 transform md:inline-block hover:text-blue-500 md:hover:scale-105">
             <Link
               to="/contact"
